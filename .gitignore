@@ -1,0 +1,100 @@
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+__pycache__
+*.rej
+*~
+#*#
+.#*
+.*.swp
+[Tt]humbs.db
+
+_packer_build.cmd
+_packer_build.ps1
+_packer_build.sh
+_terraform_build.cmd
+_terraform_build.ps1
+_terraform_build.sh
+_bluehole_credential.env
+_bluehole_credential.json
+
+terraform_build.cmd
+terraform_build.ps1
+terraform_build.sh
+bluehole_credential.env
+bluehole_credential.json
+
+var-cred*.json
+var-cred*.env
+var-aws-cred.json
+var-aws-cred.env
+var-azure-cred.json
+var-azure-cred.env
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+.DS_Store
+
+# Sublime Text 2 (sftp)
+# =========================
+sftp-config.json
+
+# Visual Studio (Code)
+.vscode/
+.vs/
+.devcontainer/
+devcontainer.json
+
+
+# Testing folders
+.hidden/
+.deploy/
+.test/
+_hidden/
+_deploy/
+_test/
+
+
+# terraform
+.terraform/
+*.terraform/
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.*.backup
+terraform.tfstate.backup
+terraform.exe
+terraform.shim
+*.auto.tfvars
+
+# Shim
+*.shim
